@@ -55,6 +55,7 @@ fun CounterScreen(modifier: Modifier = Modifier) {
             Text("Tap me")
         }
         Spacer(Modifier.height(8.dp))
+        // Reset counter button added in feature branch
         OutlinedButton(onClick = { count = 0 }) {
             Text("Reset")
         }
